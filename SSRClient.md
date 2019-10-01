@@ -61,6 +61,9 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
     (4) 选择需要的配置文件重命名为shadowsocks.json，放到run_ssr.sh指定的配置文件目录下(需包含文件名，参考3中的示例)
     
     (5) 运行run_ssr.sh, 浏览器中配置好代理模式，即可。
+ 
+![avatar](https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/GenerateConfig.PNG)
+
 
 
 
