@@ -46,7 +46,21 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
 
 ４．Generate shadowsocks.json
 
-    运行代理服务需要可用的服务器和网络端口，这些信息都可以在shadowsocks.json中以key-value字段的形式保存，这里给大家提供一份用喵帕(https://xn--i2ru8q2qg.com/user)提供的所有端口配置，生成单独配置文件的python脚本()。
+    运行代理服务需要可用的服务器和网络端口，这些信息都可以在shadowsocks.json中以key-value字段的形式保存。
+    
+    这里给大家提供一份用喵帕(https://xn--i2ru8q2qg.com/user)提供的所有端口配置，生成单独配置文件的python脚本(https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/AutoGenerate.py)。
+    
+    (1) 首先下载python脚本文件，和喵帕斯提供的gui-config.json文件，放在同一目录下
+    
+    (2) 在脚本运行目录下新建ShadowsSocksR文件夹
+    
+    (3) 运行AutoGenerate.py, 在ShadowsSocksR文件夹下生成独立的配置文件
+    
+        注意如果gui-config.json和指定生成配置文件的目录更改，在python代码中相应更改即可！
+    
+    (4) 选择需要的配置文件重命名为shadowsocks.json，放到run_ssr.sh指定的配置文件目录下(需包含文件名，参考3中的示例)
+    
+    (5) 运行run_ssr.sh, 浏览器中配置好代理模式，即可。
 
 
 
