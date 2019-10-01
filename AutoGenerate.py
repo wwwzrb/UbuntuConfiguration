@@ -8,11 +8,13 @@ import sys
 reload(sys)  # Reload does the trick!
 sys.setdefaultencoding('UTF8')
 
+# Relative path of generated configuration files
 jsons_dir = "ShadowSocksR"
 
 class Generate:
 
     def get_json(self):
+        # Relative path of MiaoPaSi configuration file
         jdir = unicode('./gui-config.json')
         with open(jdir, 'r') as f:
             jsn = json.load(f)
