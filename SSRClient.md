@@ -3,11 +3,11 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
 
 １. Install Python Client.
 
-git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
+    git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
 
-执行完毕后会在当前目录新建一个shadowsocksr目录。
+    执行完毕后会在当前目录新建一个shadowsocksr目录。
 
-参考链接:　https://github.com/shadowsocksr-backup/shadowsocks-rss/wiki/Python-client-setup-(Mult-language)
+    参考链接:　https://github.com/shadowsocksr-backup/shadowsocks-rss/wiki/Python-client-setup-(Mult-language)
 
 ２. Build Executable Script.
 
@@ -35,7 +35,8 @@ git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
 
     sudo ./stop_ssr.sh 关闭代理
 
-３. Add Proxy Agent in Exploer.
+３. Add Proxy Agent in Explorer.
+
 
 
 
