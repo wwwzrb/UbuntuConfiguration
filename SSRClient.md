@@ -38,11 +38,11 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
 ３. Add Proxy Agent in Explorer.
 
     (1). SwitchOmega for Chrome.
-    ![avatar](https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/ChromeSwitchOmega.png)
-    
+![avatar](https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/ChromeSwitchOmega.png)
+
     (2). Firefox.
     注意Firefox配置代理后可能会导致无法访问https网页，可以尝试把手动代理关闭，然后重启浏览器再次打开手动代理!
-    ![avatar](https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/FirefoxProxy.png)
+![avatar](https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/FirefoxProxy.png)
 
 
 
