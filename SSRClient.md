@@ -44,5 +44,11 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
     注意Firefox配置代理后可能会导致无法访问https网页，可以尝试把手动代理关闭，然后重启浏览器再次打开手动代理!
 ![avatar](https://github.com/wwwzrb/UbuntuConfiguration/blob/SSRConfig/FirefoxProxy.png)
 
+４．Generate shadowsocks.json
+
+运行代理服务需要可用的服务器和网络端口，这些信息都可以在shadowsocks.json中以key-value字段的形式保存，这里给大家提供一份用喵帕斯(https://xn--i2ru8q2qg.com/user)提供的所有端口配置，生成单独配置文件的python脚本()。
+
+
+
 
 
