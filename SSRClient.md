@@ -37,6 +37,11 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
 
 ３. Add Proxy Agent in Explorer.
 
+    (1). SwitchOmega for Chrome.
+    
+    
+    (2). Firefox.
+
 
 
 
