@@ -19,7 +19,10 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
 
     sudo python local.py -c ~/software/shadowsocksr/shadowsocks/shadowsocks.json -d start　
 
-    脚本首先切换到SSR安装目录(示例均为绝对路径)；然后在SSR安装目录下运行相应的配置文件(包含网络端口，加密，混淆等信息)；只需根据自己的实际路径更改上述脚本中的路径即可。
+    简单解释下脚本功能：
+    脚本首先切换到SSR安装目录(示例均为绝对路径)；
+    然后在SSR安装目录下运行相应的配置文件(包含网络端口，加密，混淆等信息)；
+    只需根据自己的实际路径更改上述脚本中的路径即可。
 
     (2). 桌面新建stop_ssr.sh, 内容如下:
 
