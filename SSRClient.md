@@ -15,9 +15,9 @@ This tutorial present the usage of SSR client under Ubuntu 18.04!
 
     #!/bin/bash
 
-    cd ~/software/shadowsocksr/shadowsocks　
+    cd ~/software/shadowsocksr/shadowsocks
 
-    sudo python local.py -c ~/software/shadowsocksr/shadowsocks/shadowsocks.json -d start　
+    sudo python local.py -c ~/software/shadowsocksr/shadowsocks/shadowsocks.json -d start
 
     简单解释下脚本功能：
     脚本首先切换到SSR安装目录(示例均为绝对路径)；
